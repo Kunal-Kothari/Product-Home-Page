@@ -1,164 +1,195 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
-   
+
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
     height: 10vh;
 }
-nav img:first-child{
+
+nav img:first-child {
     width: 113px;
     height: 102px;
     margin-left: 73px;
 }
-nav img:last-child{
-   width: 300px;
-   margin-top: 30px;
+
+nav img:last-child {
+    width: 300px;
+    margin-top: 30px;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin-top: 40px;
     margin-left: 60px;
-   
-}
-.nav-item{
-    font-size:medium;
-text-align: center;
-margin-right: 80px;
 
 }
-.nav-item:nth-child(1){
+
+.nav-item {
+    font-size: medium;
+    text-align: center;
+    margin-right: 80px;
+
+}
+
+.nav-item:nth-child(1) {
     color: #FE5E35;
 }
 
 
-.intro-section{
-display: flex;
-justify-content: space-between;
-text-align: center;
-height: 90vh;
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 90vh;
 }
 
-.left-section{ 
-  
-    width: 900px;
+.left-section {
     margin-top: 80px;
 }
 
-h3{
-    font-size:30px;
+h3 {
+    font-size: 30px;
     font-weight: 300;
     margin-right: 500px;
 }
 
-h1{
+h1 {
     font-size: 85px;
     font-weight: bolder;
-  
+
 }
-.left-section h5{
-    font-size:20px;
+
+.left-section h5 {
+    font-size: 20px;
     font-weight: 200;
     line-height: 2;
     text-align: start;
     margin-left: 144px;
 }
+
 h5 img {
-   background-color: #FE5E35;
-   border-radius: 50px;
-   padding: 2px;
-   margin-left: 30px;
-    
+    background-color: #FE5E35;
+    border-radius: 50px;
+    padding: 2px;
+    margin-left: 30px;
+
 }
 
-.text{
+.text {
     text-align: start;
     padding: 20px 140px;
-   padding-bottom: 60px;
-   color: #5c5858;
-    
+    padding-bottom: 60px;
+    color: #5c5858;
+
 }
 
-.action-btns{
-margin-right: 18pc;
+.action-btns {
+    margin-right: 18pc;
 }
-.action-btn{
-padding: 10px  30px;
-border-radius: 50px;
-color: #ffffff;
-border: none;
-background-color: #FE5E35;
-font-size: medium;
-font-weight: 300;
+
+.action-btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #ffffff;
+    border: none;
+    background-color: #FE5E35;
+    font-size: medium;
+    font-weight: 300;
 }
-[alt=headphone]{
-    position: absolute;
-    top: 120px;
-    right: 150px;
+
+.right-section {
+    position: relative;
+}
+
+[alt=headphone] {
+    position: relative;
+    top: -148px;
+    right: 110px;
     z-index: -1;
     width: 500px;
 }
 
-.discount{
-    position: absolute;
-    top: 407px;
-    right: 532px;
-    width: 150px;
+
+.discount {
+    position: relative;
+    top: 405px;
+    right: 305px;
+    width: 150px
 }
-.discount-content
-{
+
+.discount-content {
     line-height: 1;
     font-size: 15px;
     font-weight: 200;
-    position: absolute;
-    top: 449px;
-    right: 555px;
+    position: relative;
+    top: 292px;
+    right: 300px;
     color: #ffffff;
 }
 
-.discount-content h1{
+
+.discount-content h1 {
     font-size: 54px;
-font-weight: bolder;
-}
-.right-section .action-btn{
-    position: absolute;
-    top: 662px;
-    right: 330px;
+    font-weight: bolder;
 }
 
-.dots{
-    position: absolute;
-    top: 600px;
-    right: 300px;
+.right-section .action-btn {
+    position: relative;
+    top: -165px;
+    left: 46px;
     padding: 16px 58px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.tomato-dot{
+.dots {
+    position: relative;
+    top: -180px;
+    left: -118px;
+    padding: 16px 58px;
+    display: flex;
+    justify-content: center;
+}
+
+.tomato-dot {
     background-color: #FE5E35;
     border-radius: 100px;
     padding: 13px;
     margin-left: 10px;
 }
 
-.yellow-dot{
-    background-color:#F7CD2E;
+.yellow-dot {
+    background-color: #F7CD2E;
     border-radius: 100px;
     padding: 13px;
     margin-left: 10px;
 }
 
-.black-dot{
+.black-dot {
     background-color: #000000;
     border-radius: 100px;
     padding: 13px;
     margin-left: 10px;
+}
+
+
+/* ------------------------------------------ */
+@media screen and (max-width: 992px) {
+    .nav-items {
+        display: none;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
